@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dokobit</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/country-select-js/2.0.1/css/countrySelect.min.css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <div id="main" class=" lol container-fluid">
+        <div class="row">
+            <div id="left-side" class=" col-md-2 d-none d-lg-block">
+                <nav class="desktop flex-column">
+                    <a id="logo" class="navbar-brand" href="#">
+                        <img src="/img/logo.png" width="40" height="40" class="d-inline-block align-top" alt="Dokobit">
+                        <p class="align-middle">Self-service</p>
+                    </a>
+                    <a class="nav-link" href="#">DashBoard</a>
+                    <a class="nav-link" href="#">Option</a>
+                    <a class="nav-link" href="#">Option</a>
+                    <a class="nav-link" href="#">Log out</a>
+                </nav>
+            </div>
+            <div id="right-side" class="col-12 col-lg-10 mx-0 text-left"> 
+                <nav class="mobile navbar flex-column d-block d-lg-none ">
+                    <a id="logo" class="navbar-brand " href="#">
+                        <img src="/img/logo.png" width="40" height="40" class="d-inline-block align-top" alt="Dokobit">
+                        <p class="align-middle">Self-service</p>
+                    </a>
+                    <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+                        aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
+                            class="fa fa-bars" aria-hidden="true"></i></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Pricing</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div id="top" class="col-12" >
+                    <div class="item ">
+                        <span class="fa-stack fa-3x">
+                            <i class="green fa fa-circle fa-stack-2x"></i>
+                            <strong class=" fa-stack-1x text-primary">&#10004;</strong>
+                        </span>
+                        <span class="text">General information</span>
+                    </div>
+                    <div class="item">
+                        <span class="fa-stack fa-3x">
+                            <i class="green fa fa-circle fa-stack-2x"></i>
+                            <strong class=" fa-stack-1x text-primary">&#10004;</strong>
+                        </span>
+                        <span class="text">Service overview</span>
+                    </div>
+                    <div class="item">
+                        <span class="fa-stack fa-3x">
+                            <i class="green fa fa-circle fa-stack-2x"></i>
+                            <strong class=" fa-stack-1x text-primary">&#10004;</strong>
+                        </span>
+                        <span class="text">Billing information</span>
+                    </div>
+                    <div class="item">
+                        <span class="fa-stack fa-3x">
+                            <i class="orange fa fa-circle fa-stack-2x"></i>
+                            <strong class=" fa-stack-1x text-primary">4</strong>
+                        </span>
+                        <span class="text">General information</span>
+                    </div>
+                    <div class="item">
+                        <span class="fa-stack fa-3x">
+                            <i class="gray fa fa-circle fa-stack-2x"></i>
+                            <strong class=" fa-stack-1x text-primary">5</strong>
+                        </span>
+                        <span class="text">Choose signer</span>
+                    </div>
+                    <div class="item">
+                        <span class="fa-stack fa-3x">
+                            <i class="gray fa fa-circle fa-stack-2x"></i>
+                            <strong class=" fa-stack-1x text-primary">6</strong>
+                        </span>
+                        <span class="text">Review</span>
+                    </div>
+                </div>
+                <div id="general_info" class="col-12 col-lg-10 ">
+                    <h1>General Information</h1>
+                    <div id="dpo">
+                        <h2>
+                            DPO
+                        </h2>
+                        <button type="button"><img src="/img/person.png">Add new</button>
+                    </div>
+                    <p>These user have access to...</p>
+                    <table class="table">
+                        <thead>
+                            <tr>  
+                            <th scope="col">First name</th>
+                            <th scope="col">Last name</th>
+                            <th scope="col">Personal code</th>
+                            <th scope="col">Position</th>
+                            <th scope="col">Email</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Vardenis</td>
+                                <td>Pavardenis</td>
+                                <td>1234567895123</td>
+                                <td>Account</td>
+                                <td>v.pavardenis@dokobit.lt<a href="#"><img src="/img/bin.png" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td>Vardenis</td>
+                                <td>Pavardenis</td>
+                                <td>1234567895123</td>
+                                <td>Account</td>
+                                <td>v.pavardenis@dokobit.lt<a href="#"><img src="/img/bin.png" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td>Vardenis</td>
+                                <td>Pavardenis</td>
+                                <td>1234567895123</td>
+                                <td>Account</td>
+                                <td>v.pavardenis@dokobit.lt<a href="#"><img src="/img/bin.png" alt=""></a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div id="information" class="col-6 ">
+                    <h2>Information</h2>
+                    <form action="">
+                        <div class="form-check ">
+                            <input type="radio" class="form-check-input  my-1" name="type" value="Business" >
+                            <label for="Business" class="form-check-label mr-4">Business</label>
+                        </div>
+                        <div class="form-check "></div>
+                            <input type="radio" class="form-check-input my-1" name="type" value="Personal">
+                            <label for="Personal" class="form-check-label">Personal</label>
+                        </div>
+                        <div class="form-group col-md-10 col-xl-5 ml-6">
+                            <label for="name">Full name</label>
+                            <input type="text" class="form-control " name="name">
+                        </div>
+                        <div class="form-group col-md-10 col-xl-5 ml-6">
+                            <label for="number">Personal code</label>
+                            <input type="number" class="form-control " name="number">
+                        </div>
+                        <div class="form-group col-md-10 col-xl-5 ml-6">
+                            <label for="position">Position</label>
+                            <input type="text" class="form-control " name="position">
+                        </div>
+                        <div class="form-group col-md-10 col-xl-5 ml-6">
+                            <label for="email">Email</label>
+                            <input type="email"  class="form-control " name="email">
+                        </div>
+                        <div class=" buttons col-md-10 col-xl-5 ml-6">
+                            <button type="submit" class="btn btn-back ">Back</button>
+                            <button type="button" class="btn btn-continue">Continue</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
