@@ -1,0 +1,91 @@
+#general_info {
+  display: inline-block;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+#general_info h1 {
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+#general_info #dpo {
+  margin-bottom: 21px;
+}
+
+#general_info #dpo h2 {
+  display: inline-block;
+  font-size: 20px;
+  line-height: 20px;
+  margin: 5px 20px 5px 0;
+}
+
+#general_info #dpo button {
+  display: inline-block;
+  height: 30px;
+  background: #ffffff;
+  border: 1px solid #ebebeb;
+  border-radius: 15px;
+  padding: 0 12px;
+  line-height: 30px;
+}
+
+#general_info #dpo button img {
+  height: 14px;
+  margin: 7px 4px 9px 0;
+  color: #ff8b00;
+}
+
+#general_info #dpo button:focus {
+  outline: none;
+}
+
+#general_info #dpo button:hover {
+  -webkit-box-shadow: 0px 0px 8px #ff8b00;
+          box-shadow: 0px 0px 8px #ff8b00;
+}
+
+#general_info p {
+  color: #5b5e6d;
+  margin-bottom: 30px;
+}
+
+#general_info .table thead th {
+  border-top: none;
+  color: #5b5e6d;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+#general_info .table tbody tr {
+  border-bottom: solid 1px #ebebeb;
+}
+
+#general_info .table tbody td {
+  position: relative;
+  word-break: break-all;
+}
+
+#general_info .table tbody td a img {
+  position: absolute;
+  top: 12px;
+  right: 5px;
+  height: 14px;
+  margin-top: 3px;
+  float: right;
+  margin-left: 5px;
+}
+
+#general_info .table tbody td a img:hover {
+  height: 16px;
+}
+
+#general_info .table tbody td:last-child {
+  padding-right: 20px;
+}
+
+#general_info .table tbody td span {
+  margin-top: 3px;
+  margin-right: 6px;
+}
+/*# sourceMappingURL=right-table.css.map */

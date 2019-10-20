@@ -1,0 +1,58 @@
+#left-side {
+  width: 240px;
+  position: relative;
+  overflow: hidden;
+  background: #f9f9f9;
+}
+
+#left-side .desktop {
+  margin: 0;
+}
+
+#left-side .desktop #logo {
+  margin-bottom: 87px;
+}
+
+#left-side .desktop #logo img {
+  margin-right: 15px;
+}
+
+#left-side .desktop #logo p {
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#left-side .desktop a {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-left: 0px;
+  margin-bottom: 36px;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(34, 34, 34, 0.5);
+}
+
+#left-side .desktop a:hover {
+  color: #ff8b00;
+}
+
+#left-side .bootstrap-select {
+  position: absolute;
+  bottom: 25px;
+  left: 30px;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+#left-side .bootstrap-select .dropdown-toggle {
+  position: relative;
+  width: 78%;
+}
+
+#left-side .dropdown-menu {
+  min-width: 75%;
+}
+/*# sourceMappingURL=left-navbar.css.map */

@@ -1,0 +1,109 @@
+#information {
+  h2 {
+    display: inline-block;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 5px 20px 40px 5px;
+  }
+  
+  form {
+     margin-bottom: 200px;
+    .form-check {
+      display: inline-block;
+      margin-bottom: 30px;
+      //   margin-left: 10px;
+    }
+    .form-group {
+      input {
+        margin: 0;
+      }
+      label {
+        color: #5b5e6d;
+      }
+      //flagpicker overreide
+      .iti{
+        width: 100%;
+      }
+      .iti__dial-code {
+        display: none;
+      }
+    }
+  }
+}
+
+.buttons {
+  .btn-back {
+    background: #fff;
+    height: 50px;
+    width: 165px;
+    border: 1px solid #ebebeb;
+    border-radius: 50px;
+    color: #222;
+  }
+  .btn-back:hover {
+    box-shadow: 0px 0px 8px #ff8b00;
+  }
+  .btn-continue {
+    float: right;
+    background: #ff8b00;
+    height: 50px;
+    width: 165px;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+  }
+  .btn-continue:hover {
+    box-shadow: 0px 0px 8px #222;
+  }
+}
+
+.form-check {
+  width: fit-content;
+  display: inline-block;
+  position: relative;
+  padding-left: 35px;
+  cursor: pointer;
+    line-height: 20px;
+  font-size: 16px;
+
+  & input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    border: 2px solid #5b5e6d;
+    border-radius: 50%;
+  }
+  &:hover input ~ .checkmark {
+    background-color: #ebebeb;
+  }
+  & input:checked ~ .checkmark {
+    background-color: #fff;
+    border: 2px solid #ff8b00;
+  }
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  & input:checked ~ .checkmark:after {
+    display: inline-block;
+  }
+  & .checkmark:after {
+    top: 3px;
+    left: 3px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #ff8b00;
+  }
+}
+// input{outline-color: !important#ff8b00;}
+

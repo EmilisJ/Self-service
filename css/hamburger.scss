@@ -1,0 +1,59 @@
+.mobile {
+  background: #f9f9f9;
+  height: 80px;
+  margin: 0 0 20px 0;
+  padding: 15px 0 0 0px;
+  #logo {
+      padding-bottom: 20px;
+    p {
+    margin-top: 8px;
+      display: inline-block;
+      font-weight: bold;
+      font-size: 16px;
+    }
+  }
+  button {
+    margin-top: 5px;
+    float: right;
+    i {
+      font-size: 30px;
+    }
+    i:hover{
+        color: #ff8b00;
+    }
+  }
+  .navbar-collapse,
+  .navbar-nav{
+    position:relative;
+    background: #f9f9f9;
+    position: relative;
+    z-index: 2;
+    ul {
+      
+      display: block;
+      background: #f9f9f9;
+      padding-bottom: 5px;
+      li{
+        margin-bottom: 20px;
+        border-bottom: 1px solid #ebebeb;
+      }
+      li a {
+        font-size: 16px;
+        line-height: 20px;
+        color: #222;
+      }
+      a:hover{
+        color: #ff8b00;
+      }
+    }
+    .langs{
+      position: absolute;
+      bottom: 42px;
+      right: 12px;
+      i{
+        font-size: 20px;
+        margin-left: 20px;
+      }
+    }
+  }
+}
