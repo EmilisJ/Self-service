@@ -69,9 +69,13 @@
   right: 12px;
 }
 
-.mobile .navbar-collapse .langs i,
-.mobile .navbar-nav .langs i {
-  font-size: 20px;
+.mobile .navbar-collapse .langs a,
+.mobile .navbar-nav .langs a {
   margin-left: 20px;
+}
+
+.mobile .navbar-collapse .langs a i,
+.mobile .navbar-nav .langs a i {
+  font-size: 20px;
 }
 /*# sourceMappingURL=hamburger.css.map */
