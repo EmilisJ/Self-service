@@ -26,3 +26,14 @@
         {name: 'Tomas', surname: 'Toluliavičiauskas', id: '1236589657895', position: 'Account', email: 'j.jonaitis@dokobit.lt', country: 'is'},
         ] });
         document.getElementById('genInfoPeople').innerHTML += genInfoPeople;
+
+// All accounts in general info.
+        var languages = document.getElementById("language-template").innerHTML;
+        var template = Handlebars.compile(languages);
+        var genFlag = template({ langs: [
+                {flag: 'gb', language: 'English', state: '' },
+                {flag: 'lt', language: 'Lietuviškai', state: 'selected' },
+                {flag: 'ee', language: 'Eesti keel', state: '' },
+                {flag: 'is', language: 'Íslenska', state: '' },
+        ] });
+        document.getElementById('language').innerHTML += genFlag;     

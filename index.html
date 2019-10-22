@@ -35,13 +35,12 @@
                     <a class="nav-link" href="#">Option</a>
                     <a class="nav-link" href="#">Log out</a>
                 </nav>
-                <select class="selectpicker col px-0 w-75 pt-4 border-top " id="language">
-                    <option data-content="<i class='flag-icon flag-icon-gb' aria-hidden='true' style='margin: 3px 5px 0 0;'></i>English"></option>
-                    <option data-content="<i class='flag-icon flag-icon-lt' aria-hidden='true' style='margin: 3px 5px 0 0;'></i>Lietuviškai" selected="selected"></option>
-                    <option data-content="<i class='flag-icon flag-icon-ee' aria-hidden='true' style='margin: 3px 5px 0 0;'></i>Eesti keel"></option>
-                    <option data-content="<i class='flag-icon flag-icon-is' aria-hidden='true' style='margin: 3px 5px 0 0;'></i>Íslenska"></option>
-                </select>
-
+                <select class="selectpicker col px-0 w-75 pt-4 border-top " id="language"></select>
+                <script id="language-template" type="text/x-handlebars-template">
+                    {{#each langs}}
+                        <option data-content="<i class='flag-icon flag-icon-{{flag}}' aria-hidden='true' style='margin: 3px 5px 0 0;'></i>{{language}}" {{state}}></option>
+                    {{/each}}
+                </script>
             </div>
             <nav class="mobile navbar col d-block d-lg-none fixed-top">
                 <a id="logo" class="navbar-brand ml-3" href="#">
@@ -142,7 +141,7 @@
                             <input type="text" class="form-control " name="name" pattern="[a-zA-Z]+[ ][a-zA-Z]{2,40}" required>
                         </div>
                         <div class="form-group ">
-                            <label for="person-code">Personal code</label>
+                            <label for="person-code" style="overflow-y: hidden">Personal code</label>
                             <input type="number" id="personid" class=" form-control " name="person-code" pattern="[0-9]{10,13}" required>
                         </div>
                         <div class="form-group ">
